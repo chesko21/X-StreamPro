@@ -1,0 +1,63 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Kotlin/JVM
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+# User-specific stuff
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+
+# Android
+capture/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Local configuration file (contains sensitive info like SDK paths)
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing files
+*.jks
+*.keystore
+*.p12
+*.properties
+!gradle.properties
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# Secrets
+secrets.properties
+google-services.json
